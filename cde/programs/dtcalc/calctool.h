@@ -98,10 +98,7 @@ extern char *_DtGetMessage(char *filename, int set, int n, char *s);
 #define PS2_DIN_NAME            "PS2_DIN_KEYBOARD"
 #endif
 
-extern char *getenv(const char *);
-extern char *mktemp(char *);
-
-extern double drand48();
+#include <stdlib.h>
 
 #define  MEM	1
 #define  FIN	2
